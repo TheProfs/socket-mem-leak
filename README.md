@@ -24,13 +24,13 @@ $ npm install
 - Running with default Transport protocol
 
 ```bash
-$ node --inspect --expose-gc index.js
+$ node --expose-gc index.js
 ```
 
 - Enforcing WebSockets-only Transport protocol
 
 ```bash
-$ WS_ONLY=true node --inspect --expose-gc index.js
+$ WS_ONLY=true node --expose-gc index.js
 ```
 
 Then visit [http://localhost:3000](http://localhost:3000) and pop-open the console.
