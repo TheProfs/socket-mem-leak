@@ -1,0 +1,31 @@
+{
+  "name": "socket-mem-leak",
+  "version": "0.0.1",
+  "description": "Test case for debugging a socket.io memory leak",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --watch -f --no-daemon --name socket-mem-leak",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholaswmin/socket-mem-leak.git"
+  },
+  "keywords": [
+    "socket.io",
+    "memory",
+    "leak"
+  ],
+  "author": "@nicholaswmin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicholaswmin/socket-mem-leak/issues"
+  },
+  "homepage": "https://github.com/nicholaswmin/socket-mem-leak#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "http": "0.0.0",
+    "pm2": "^2.4.0",
+    "socket.io": "^1.7.3"
+  }
+}
