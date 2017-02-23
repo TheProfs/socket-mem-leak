@@ -33,7 +33,7 @@ $ node --inspect --expose-gc index.js
 $ WS_ONLY=true node --inspect --expose-gc index.js
 ```
 
-Then visit http://localhost:3000 and pop-open the console.
+Then visit [http://localhost:3000](http://localhost:3000) and pop-open the console.
 
 
 ## Metrics:
