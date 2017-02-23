@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/nicholaswmin/socket-mem-leak#readme",
   "dependencies": {
+    "colors": "^1.1.2",
     "express": "^4.14.1",
     "http": "0.0.0",
     "pm2": "^2.4.0",
