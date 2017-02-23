@@ -3,11 +3,11 @@
 
 ## Problem
 
-> When there's no enforcement to use "Web Sockets" *only* as the transport
+- When there's no enforcement to use "Web Sockets" *only* as the transport
 protocol, the server logs a memory spike (> 500%) when emitting a big sample
 JSON.
 
-When "Web Sockets" *only* are enforced, the server logs
+- When "Web Sockets" *only* are enforced, the server logs
 nominal memory consumption values whilst emitting the sample JSON.
 
 The problem seems to lie with the initial XHR handshake.
