@@ -59,6 +59,7 @@ Used heap size 593.68 MB
 ```
 
 > Enforcing WebSockets-only
+
 ```
 Listening on 3000, using WebSocket only
 Used heap size 34.92 MB
