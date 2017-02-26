@@ -1,5 +1,5 @@
 # socket-mem-leak
-> Test case for a socket.io memory leak
+> Test case for a socket.io memory leak, tracked as an Issue [here][1].
 
 ## Problem
 
@@ -75,3 +75,6 @@ Used heap size 43.97 MB
 Used heap size 43.98 MB
 Used heap size 43.98 MB
 ```
+
+
+[1]: https://github.com/socketio/socket.io/issues/2872
